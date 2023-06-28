@@ -1,7 +1,5 @@
 package com.example.springbasicprinciple.discount;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import com.example.springbasicprinciple.member.Grade;
 import com.example.springbasicprinciple.member.Member;
 import org.assertj.core.api.Assertions;
