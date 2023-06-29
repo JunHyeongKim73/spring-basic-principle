@@ -2,7 +2,9 @@ package com.example.springbasicprinciple.member;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MemoryMemberRepository implements MemberRepository {
 
     // FIXME: ConcurrentHashMap을 써야 동시성 이슈를 해결할 수 있음
